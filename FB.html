@@ -1,0 +1,110 @@
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Shares - FB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button-inverse" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="/ndcaptial/index.html">North Downs Captial</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="/ndcaptial/index.html">Home</a></li>
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">↕ Stocks<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/ndcaptial/AMZN.html"><img src="http://pngimg.com/uploads/amazon/amazon_PNG7.png" alt="Example" width="20%" height="20%"></a></li>
+                          <li><a href="/ndcaptial/FB.html"><img src="http://pluspng.com/img-png/facebook-logo-png-1722.png" alt="Example" width="20%" height="20%"></a></li>
+                          <li><a href="/ndcaptial/L&G.html"><img src="https://5c997087fb4458fce83c-ad570281ab0c3b7923f78130adfeaf8e.ssl.cf2.rackcdn.com/DlgDubaTXCkVu74q-vp-logo-legal.png" alt="Example" width="20%" height="20%"></a></li>
+                          <li><a href="/ndcaptial/MDLZ.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Mondelez_international_2012_logo.svg/1280px-Mondelez_international_2012_logo.svg.png" alt="Example" width="20%" height="20%"></a></li>
+                          <li><a href="/ndcaptial/LSE-NG.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/National_Grid_logo.svg/1280px-National_Grid_logo.svg.png" alt="Example" width="20%" height="20%"></a></li>
+                          <li><a href="/ndcaptial/KHC.html"><img src="https://purepng.com/public/uploads/large/purepng.com-kraft-heinz-logologobrand-logoiconslogos-251519940545jo52c.png" alt="Example" width="20%" height="20%"></a></li>
+                        </ul>
+                      </li>
+                      <li><a href="/ndcaptial/Market-Overview.html">🔍 Market Overview</a></li>
+                      
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+<div class="jumbotron text-center" style="padding-top: 80px;">
+  <h1><img src="http://pluspng.com/img-png/facebook-logo-png-1722.png" alt="Example" width="60%" height="60%"></h1>
+  <p>Stock Overview</p> 
+</div>
+<div class="container"><p class="text-danger">If 'E' is displayed next to price, not live data.</p></div>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+        <div id="tv-medium-widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-FB/" rel="noopener" target="_blank"><span class="blue-text">FB Quotes</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+        new TradingView.MediumWidget(
+        {
+        "container_id": "tv-medium-widget",
+        "symbols": [
+          "NASDAQ:FB|12m"
+        ],
+        "greyText": "Quotes by",
+        "gridLineColor": "rgba(152, 152, 152, 1)",
+        "fontColor": "rgba(152, 152, 152, 1)",
+        "underLineColor": "#dbeffb",
+        "trendLineColor": "#4bafe9",
+        "width": "100%",
+        "height": "500px",
+        "locale": "en"
+      }
+        );
+        </script>
+      </div>
+      <!-- TradingView Widget END -->
+            <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-FB/" rel="noopener" target="_blank"><span class="blue-text">FB Profile</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-profile.js" async>
+                {
+                "symbol": "NASDAQ:FB",
+                "width": "100%",
+                "height": "650",
+                "colorTheme": "light",
+                "isTransparent": false,
+                "locale": "en"
+                }
+                </script>
+        </div>
+
+
+
+
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-FB/" rel="noopener" target="_blank"><span class="blue-text">FB Fundamental Data</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-financials.js" async>
+                {
+                "symbol": "NASDAQ:FB",
+                "colorTheme": "light",
+                "isTransparent": false,
+                "largeChartUrl": "",
+                "displayMode": "regular",
+                "width": "100%",
+                "height": "830",
+                "locale": "en"
+                }
+                </script>
+        </div>
+
+</body>
+</html>
+
